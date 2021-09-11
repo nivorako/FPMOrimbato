@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image:url("../../../Assets/bg2.jpg");
+    background-size: Cover;
+    background-repeat: "no-repeat";
+    height: 50vh;
+}
