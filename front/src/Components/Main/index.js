@@ -1,7 +1,4 @@
 import React from 'react'
-import Reflexion from '../Reflexion';
-import Diary from '../Diary'; 
-import Edito from "../Edito";
 
 import './Main.css';
 
@@ -12,9 +9,16 @@ function Main() {
                 Ici, quelques extraits de la bible
             </div>
             <div className="churchLife">
-                <Diary />
-                <Reflexion />
-                <Edito />
+                <div>
+                    ici diary
+                </div>
+                <div>
+                    ici Edito
+                </div>
+                <div>
+                    ici Reflexion
+                </div>
+                
             </div>
             
         </div>

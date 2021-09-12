@@ -11,12 +11,34 @@ function Navigation() {
             <div className='logo'>
                 <img className="logo" src={Logo} alt="logo"/>
             </div>
-            <div className="nav">
-                <button className="bouton">Accueil</button>
-                <button className="bouton">Vie de l'église</button>
-                <button className="bouton">Sections</button>
-                <button className="bouton">Contact</button>
-            </div>
+            <nav className="bouton">  
+                <div className=' dropdown'>
+                    <button href="/" className="switch">Accueil</button>
+                    <div className="dropdown-content">
+                        <a href="./ecoleD">Les paroles de la bible</a>
+                    </div>
+                </div>           
+                <div className=' dropdown'>
+                    <button href="#" className="switch">Sections</button>
+                    <div className="dropdown-content">
+                        <a href="./ecoleD">Ecole du dimanche</a>
+                        <a href="./jeunes">Jeunes chrétiens</a>
+                        <a href="./femmes">Femmes chrétiennes</a>
+                        <a href="./hommes">Hommes chrétiens</a>
+                    </div>
+                </div>
+                <div className=' dropdown'>
+                    <button href='#' className="switch">Vie d'Eglise</button>           
+                    <div className="dropdown-content">
+                        <a href="./confCall">ConfCall Biblique</a>
+                        <a href="./lieu">Lieu de culte</a>
+                        <a href="./projet">Projet d'église</a>
+                        <a href="./reglement">Règlement interieur</a>
+                    </div>
+                </div>
+                <a href="#" ><button className="switch">Contactez nous</button></a>
+            </nav>
+            
         </div>
        
     )
