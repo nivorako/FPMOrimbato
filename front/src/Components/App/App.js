@@ -1,14 +1,18 @@
-import Header from "../Partials/Header/Header";
-import Footer from "../Partials/Footer/Footer";
-import Main from "../Main";
+import Home from "../Home";
+import Navigation from "../Navigation";
+import Annoucement from "../Annoucement";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <Navigation />
+      <Home />
+      <Annoucement />
     </div>
   );
 }

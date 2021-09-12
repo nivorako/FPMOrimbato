@@ -1,0 +1,18 @@
+.navigation{
+    height: 10vh;
+    font-size: 1.2em;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 2px 2px 2x grey;
+}
+
+
+.logo{ 
+    height: 60px;
+    box-sizing: border-box;
+}

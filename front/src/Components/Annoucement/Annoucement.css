@@ -1,0 +1,8 @@
+.announcement{
+    background-color: rgb(151, 148, 148);
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}

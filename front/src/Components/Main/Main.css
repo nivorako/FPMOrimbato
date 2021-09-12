@@ -1,0 +1,12 @@
+.main{
+    height: 80vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.churchLife{
+    display: flex;
+    justify-content: space-around;
+}
