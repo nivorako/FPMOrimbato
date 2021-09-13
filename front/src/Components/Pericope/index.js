@@ -3,7 +3,7 @@ import React from 'react'
 function Pericope() {
     return (
         <div>
-            Ici le pericope
+            Ici la page du pericope
         </div>
     )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Femmes() {
+function Young() {
     return (
         <div>
-            Ici les femmes
+            Ici les jeunes
         </div>
     )
 }
 
-export default Femmes;
+export default Young;

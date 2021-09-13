@@ -3,7 +3,7 @@ import React from 'react'
 function Reflexion() {
     return (
         <div>
-            Ici reflexion
+            Ici la page de la reflexion
         </div>
     )
 }

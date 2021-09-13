@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 import './Main.css';
 
@@ -9,16 +10,21 @@ function Main() {
                 Ici, quelques extraits de la bible
             </div>
             <div className="churchLife">
-                <div>
-                    ci le pericope
-                </div>
-                <div>
-                    ici Edito
-                </div>
-                <div>
-                    ici Reflexion
-                </div>
-                
+                <Link to="/Pericope">
+                    <div>
+                        ci le pericope
+                    </div>
+                </Link>
+                <Link to="/Edito">
+                    <div>
+                        ici Edito
+                    </div>
+                </Link>
+                <Link to="/Reflexion">
+                    <div>
+                        ici Reflexion
+                    </div> 
+                </Link> 
             </div>
             
         </div>

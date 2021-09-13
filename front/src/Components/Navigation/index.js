@@ -1,6 +1,8 @@
 import React from 'react';
-import Logo from '../../Assets/FPMA.png';
 
+import {Link}from 'react-router-dom';
+
+import Logo from '../../Assets/FPMA.png';
 import "./Navigation.css";
 
 function Navigation() {
@@ -8,9 +10,11 @@ function Navigation() {
     return (
         
         <div className="navigation">
-            <div className='logo'>
-                <img className="logo" src={Logo} alt="logo"/>
-            </div>
+            <Link to="/">
+                <div className='logo'>
+                    <img className="logo" src={Logo} alt="logo"/>
+                </div>
+            </Link>
             <nav className="bouton">  
                 <div className=' dropdown'>
                     <button href="/" className="switch">Accueil</button>
@@ -21,28 +25,29 @@ function Navigation() {
                 <div className=' dropdown'>
                     <button href="#" className="switch">Responsables</button>
                     <div className="dropdown-content">
-                        <a href="./ecoleD">pasteur</a>
-                        <a href="./jeunes">Le bureau</a>
-                        <a href="./femmes">Le comité paroissial</a>
-                        <a href="./hommes">les anciens</a>
+                        <a href="/Manager/Pastor">pasteur</a>
+                        <a href="/Manager/Official">Le bureau</a>
+                        <a href="/Manager/Comity">Le comité paroissial</a>
+                        <Link to="/Manager/Anciens">les anciens</Link>
+                        
                     </div>
                 </div>        
                 <div className=' dropdown'>
                     <button href="#" className="switch">Sections</button>
                     <div className="dropdown-content">
-                        <a href="./ecoleD">Ecole du dimanche</a>
-                        <a href="./jeunes">Jeunes chrétiens</a>
-                        <a href="./femmes">Femmes chrétiennes</a>
-                        <a href="./hommes">Hommes chrétiens</a>
+                        <a href="/Sections/School">Ecole du dimanche</a>
+                        <a href="/Sections/Young">Jeunes chrétiens</a>
+                        <a href="/Sections/Women">Femmes chrétiennes</a>
+                        <a href="/Sections/Men">Hommes chrétiens</a>
                     </div>
                 </div>
                 <div className=' dropdown'>
                     <button href='#' className="switch">Vie d'Eglise</button>           
                     <div className="dropdown-content">
-                        <a href="./confCall">Calendrier</a>
-                        <a href="./lieu">Liturgie</a>
-                        <a href="./projet">Projet d'église</a>
-                        <a href="./reglement">Règlement interieur</a>
+                        <a href="/Church/Calendar">Calendrier</a>
+                        <a href="/Church/Liturgy">Liturgie</a>
+                        <a href="/Church/Project">Projet d'église</a>
+                        <a href="/Church/Rules">Règlement interieur</a>
                     </div>
                 </div>
                 <a href="#" ><button className="switch">Contact</button></a>

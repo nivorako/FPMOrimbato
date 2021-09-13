@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Diacres() {
+function Liturgy() {
     return (
         <div>
-            Ici les diacres
+            Ici liturgie
         </div>
     )
 }
 
-export default Diacres
+export default Liturgy;

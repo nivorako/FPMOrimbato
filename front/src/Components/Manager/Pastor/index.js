@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Liturgie() {
+function Pastor() {
     return (
         <div>
-            Ici liturgie
+            Ici le Pasteur
         </div>
     )
 }
 
-export default Liturgie;
+export default Pastor
