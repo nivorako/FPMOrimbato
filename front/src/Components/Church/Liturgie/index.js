@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Diary() {
+function Liturgie() {
     return (
         <div>
-            Ici diary
+            Ici liturgie
         </div>
     )
 }
 
-export default Diary;
+export default Liturgie;

@@ -10,7 +10,7 @@ function Main() {
             </div>
             <div className="churchLife">
                 <div>
-                    ici diary
+                    ci le pericope
                 </div>
                 <div>
                     ici Edito
