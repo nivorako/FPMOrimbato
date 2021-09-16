@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import Main from '../Main';
 
 function Home() {
@@ -8,7 +7,7 @@ function Home() {
         <div>
             <Header />
             <Main />
-            <Footer />
+            
         </div>
     )
 }

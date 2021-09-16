@@ -44,7 +44,7 @@ function Navigation() {
                 <div className=' dropdown'>
                     <button href='#' className="switch">Vie d'Eglise</button>           
                     <div className="dropdown-content">
-                        <a href="/Church/Calendar">Calendrier</a>
+                        <a href="/Church/Diary">Calendrier</a>
                         <a href="/Church/Liturgy">Liturgie</a>
                         <a href="/Church/Project">Projet d'église</a>
                         <a href="/Church/Rules">Règlement interieur</a>

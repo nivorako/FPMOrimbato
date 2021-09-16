@@ -1,5 +1,6 @@
 .footer{
-    height: 50vh;
-    background-color: rgb(151, 148, 148);
     
+    height: 40vh;
+    background-color: rgb(151, 148, 148);
+    z-index: 1;
 }

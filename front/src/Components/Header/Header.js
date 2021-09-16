@@ -7,10 +7,12 @@ function Header() {
         <div className="header">
             
             <div className="title">
-                <div className="h1">
-                   <p>FIANGONANA PROTESTANTA MALAGASY</p> 
-                   <p>Orimbaton' ny Finoana</p>
-                </div>
+               <h1>FPM Orimbaton'ny Finoana</h1> 
+               <h2>Eglise Protestante Malgache</h2>
+                {/* <div className="h1">
+                   <p>FPM Orimbaton'ny Finoana</p> 
+                   <p>Eglise Protestante Malgache</p>
+                </div> */}
             </div>
            
         </div>

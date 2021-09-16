@@ -7,7 +7,7 @@ import Anciens from "../Manager/Anciens";
 import Comity from "../Manager/Comity";
 import Official from "../Manager/Official";
 import Pastor from "../Manager/Pastor";
-import Calendar from "../Church/Calendar";
+import Diary from "../Church/Diary";
 import Liturgy from '../Church/Liturgy';
 import Project from '../Church/Project';
 import Rules from '../Church/Rules';
@@ -18,6 +18,7 @@ import Young from '../Sections/Young';
 import Edito from "../Edito";
 import Pericope from '../Pericope';
 import Reflexion from "../Reflexion";
+import Footer from '../Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -45,8 +46,8 @@ function App() {
         <Route  path="/Manager/Pastor">
           <Pastor />
         </Route>
-        <Route  path="/Church/Calendar">
-          <Calendar />
+        <Route  path="/Church/Diary">
+          <Diary />
         </Route>
         <Route  path="/Church/Liturgy">
           <Liturgy />
@@ -79,7 +80,7 @@ function App() {
           <Pericope />
         </Route>
       </Switch>
-
+      <Footer />
       <Annoucement />
     </div>
   );
