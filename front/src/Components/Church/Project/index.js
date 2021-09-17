@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './Project.css';
 
 function Project() {
     return (
-        <div>
+        <div className='project'>
             Ici le projet de l'eglise
         </div>
     )

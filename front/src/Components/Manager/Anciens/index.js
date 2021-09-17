@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import './Anciens.css';
 
 function Anciens() {
     return (
-        <div>
+        <div className='anciens'>
             Ici les anciens
         </div>
     )

@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import './School.css';
 
 function School() {
     return (
-        <div>
+        <div className='school'>
             Ici l'ecole
         </div>
     )

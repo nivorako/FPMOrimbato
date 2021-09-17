@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import './Men.css';
 
 function Men() {
     return (
-        <div>
+        <div className="men">
             Ici les hommes
         </div>
     )

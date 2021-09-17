@@ -17,9 +17,12 @@ function Navigation() {
             </Link>
             <nav className="bouton">  
                 <div className=' dropdown'>
-                    <button href="/" className="switch">Accueil</button>
+                    
+                        <button className="switch">Accueil</button>
+                    
+                    
                     <div className="dropdown-content">
-                        <a href="./ecoleD">Les paroles de la bible</a>
+                        <a href="#">Les paroles de la bible</a>
                     </div>
                 </div>   
                 <div className=' dropdown'>

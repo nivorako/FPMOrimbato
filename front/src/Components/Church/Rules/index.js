@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import './Rules.css';
 
 function Rules() {
     return (
-        <div>
+        <div className='rules'>
             Ici règlements intérieurs
         </div>
     )
