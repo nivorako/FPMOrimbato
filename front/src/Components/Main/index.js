@@ -5,7 +5,7 @@ import './Main.css';
 
 function Main() {
     return (
-        <div className="main">
+        <div className="main" id="main">
             <div className="gospel">
                 Ici, quelques extraits de la bible
             </div>

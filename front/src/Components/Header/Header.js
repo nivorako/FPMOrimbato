@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
     return (
-        <div className="header">
+        <div className="header" id="header">
             
             <div className="title">
                <h1>FPM Orimbaton'ny Finoana</h1> 

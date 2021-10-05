@@ -1,11 +1,16 @@
 import React from 'react';
 
+import ScrollToTop from '../../ScrollToTop';
+
 import './Women.css';
 
 function Women() {
     return (
-        <div className='women'>
-            Ici les femmes
+        <div>
+            <ScrollToTop />
+            <div className='women'>
+                Ici les femmes
+            </div>
         </div>
     )
 }

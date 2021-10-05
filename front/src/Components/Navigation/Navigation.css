@@ -31,7 +31,6 @@
     
     margin-left: -20px;
     background-color: whitesmoke;
-    
     border-radius: 10px;
     display: none;
     position: absolute;
@@ -39,7 +38,7 @@
 }
 .dropdown-content a{
     padding-top: 10px;
-    margin-bottom: 10px;
+    
     padding-left: 10px;
     color: #7C005A;
     text-decoration: none;
@@ -53,12 +52,10 @@
     align-items: flex-start;
 }
 .dropdown-content a:hover{
-    /* background-color: #6f7c9a; */
-    border-radius: 10px;
-    text-decoration: none;
-    color: #7C005A;
-    
+    border-radius: 10px; 
+    color: #7C005A; 
     box-shadow: 1px 1px 3px #7C005A;
+    margin-bottom: 2px;
 }
 .dropdown:hover .dropdown-content{
     display: block;

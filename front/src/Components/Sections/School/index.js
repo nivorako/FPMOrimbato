@@ -1,11 +1,16 @@
 import React from 'react';
+import ScrollToTop from '../../ScrollToTop';
 
 import './School.css';
 
 function School() {
     return (
-        <div className='school'>
-            Ici l'ecole
+        <div>
+            <ScrollToTop />
+            <div className='school'>
+                Ici l'ecole
+                
+            </div>
         </div>
     )
 }

@@ -1,12 +1,17 @@
 import React from 'react';
+import ScrollToTop from '../../ScrollToTop';
 
 import './Liturgy.css';
 
 function Liturgy() {
     return (
-        <div className="liturgy">
-            Ici liturgie
+        <div>
+            <ScrollToTop />
+            <div className="liturgy">
+                Ici liturgie
+            </div>
         </div>
+        
     )
 }
 

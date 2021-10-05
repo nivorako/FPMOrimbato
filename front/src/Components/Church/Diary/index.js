@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import DataDiary from '../../../Data/DataDiary';
 import Calendar from 'react-calendar';
-import dayjs from 'dayjs';
+import ScrollToTop from '../../ScrollToTop';
 import 'react-calendar/dist/Calendar.css';
 
 import './Diary.css';
@@ -9,7 +9,7 @@ import './Diary.css';
 function Diary() {
 
     const[diaries, setDiary] = useState([]);
-
+    
     useEffect(() => {
         setDiary(DataDiary);
     }, []);
@@ -36,6 +36,7 @@ function Diary() {
 
     return (
         <div className="calendar container">
+            <ScrollToTop />
             <div className="calendar__show">
                 {
                     calendar ? (

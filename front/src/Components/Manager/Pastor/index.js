@@ -1,12 +1,17 @@
 import React from 'react';
+import ScrollToTop from '../../ScrollToTop';
 
 import './Pastor.css';
 
 function Pastor() {
     return (
-        <div className="pastor">
-            Ici le Pasteur
+        <div>
+            <ScrollToTop />
+            <div className="pastor">
+                Ici le Pasteur
+            </div>
         </div>
+        
     )
 }
 

@@ -18,6 +18,7 @@ import Young from '../Sections/Young';
 import Edito from "../Edito";
 import Pericope from '../Pericope';
 import Reflexion from "../Reflexion";
+import Erreur from "../PageErreur";
 import Footer from '../Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,6 +27,7 @@ import './App.css';
 
 
 function App() {
+
   return (
     <div className="App">
       <Navigation />
@@ -78,6 +80,9 @@ function App() {
         </Route>
         <Route  path="/Pericope">
           <Pericope />
+        </Route>
+        <Route >
+          <Erreur />
         </Route>
       </Switch>
       <Footer />
